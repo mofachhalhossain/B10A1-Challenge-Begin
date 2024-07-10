@@ -114,6 +114,11 @@ input {
   padding-left: 5%;
 }
 
+.my-inspiration .container,
+.my-current-target .container {
+  background-color: #FFFFFF;
+}
+
 .my-inspiration .container > p {
   margin-bottom: 48px;
 }
