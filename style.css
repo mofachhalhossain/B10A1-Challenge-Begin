@@ -86,7 +86,9 @@ button {
   margin: 74px 0px;
 }
 
-.why-web-development .container > h2 {
+.why-web-development .container > h2,
+.my-inspiration .container > h2,
+.my-current-target .container > h2 {
   font-style: normal;
   font-weight: 800;
   font-size: 32px;
@@ -96,7 +98,9 @@ button {
   padding-bottom: 12px;
 }
 
-.why-web-development .container > p {
+.why-web-development .container > p,
+.my-inspiration .container > p,
+.my-current-target .container > p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -107,6 +111,10 @@ button {
   padding-top: 12px;
   padding-right: 5%;
   padding-left: 5%;
+}
+
+.my-inspiration .container > p {
+  margin-bottom: 48px;
 }
 
 .featured-1,
@@ -165,4 +173,72 @@ button {
 
 .featured-2 .featured-content > p {
   max-width: 55%;
+}
+
+.my-inspiration .container > iframe {
+  width: 100%;
+  height: 550px;
+  border-radius: 50px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  padding: 32px;
+}
+
+.languages-card-wrap {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 48px;
+}
+
+.language-card {
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.card-html {
+  background: rgba(255, 76, 30, 0.05);
+  margin-right: 24px;
+}
+
+.card-css {
+  background: rgba(0, 76, 232, 0.05);
+  margin-right: 24px;
+}
+
+.card-js {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.language-card > img {
+  width: 56px;
+  height: 56px;
+}
+
+.language-card > h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  color: #0d1321;
+  padding: 24px 0px 4px 0px;
+}
+
+.language-card > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0d1321;
+  opacity: 0.7;
+  padding: 4px 0px 12px 0px;
+}
+
+.language-card > a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #0d1321;
+  margin: 12px 0px 0px 0px;
 }
